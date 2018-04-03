@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1.0, user-scalable=no">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="msapplication-tap-highlight" content="no">
+  <meta name="description" content="Aplikasi Apheresis Medan. Menghubungkan antar pendonor dan pencari whole blood dan trombosit">
+  <meta name="keywords" content="apheresis">
+  <title>Homepage Apheresis</title>
+  <!-- CORE CSS-->
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.100.1/css/materialize.min.css" type="text/css" rel="stylesheet" media="screen,projection">
+  <!-- jQuery Library -->
+  <script type="text/javascript" src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+	<script type="text/javascript" src="js/apheresis.js"></script>
+  <!--materialize js-->
+  <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.100.1/js/materialize.min.js"></script>
+  <!--prism-->
+    <!-- Custome CSS-->    
+</head>
+<body>
+  <main>
+    <center>
+      <img class="responsive-img" style="width: 90px;margin-top:12px;" src="img/logo.png" alt="logo apheresis"/>
+			<p id="capJudulDepan">Apheresis Medan - Login</p>
+      <div class="container ">
+        <div class="z-depth-1 white row" style="display: inline-block; padding: 32px 48px 0px 48px; border: 1px solid #EEE;">
+
+          
+            <div class='row'>
+              <div class='col s12'>
+              </div>
+            </div>
+
+            <div class='row'>
+              <div class='input-field col s12'>
+                <input class='validate' type='email' name='email' id='txtEmail' />
+                <label for='email'>Email</label>
+              </div>
+            </div>
+
+            <div class='row'>
+              <div class='input-field col s12'>
+                <input class='validate' type='password' name='password' id='txtPassword' />
+                <label for='password'>Password</label>
+              </div>
+              <label style='float: right;'>
+								<a class='pink-text' href='#!'><b>Lupa password?</b></a><br/>
+								 <a href="#!" id="btnDaftar">Buat akun baru</a>
+							</label>
+					</div>
+            <center>
+              <div class='row'>
+                <button name='btn_login' id="btnLogin" class='col s12 btn waves-effect red'>Login</button>
+              </div>
+            </center>
+          
+        </div>
+      </div>
+			
+			<div id="modalLogin" class="modal">
+    <div class="modal-content">
+       <div class="preloader-wrapper big active">
+    <div class="spinner-layer spinner-blue-only">
+      <div class="circle-clipper left">
+        <div class="circle"></div>
+      </div><div class="gap-patch">
+        <div class="circle"></div>
+      </div><div class="circle-clipper right">
+        <div class="circle"></div>
+      </div>
+    </div>
+  </div>
+        <div id="isiModal">
+      <p>Menghubungkan ke server</p>
+			<small>Loading terlalu lama? Periksa koneksi anda.</small>
+            </div>
+    </div>
+			</div>    
+		</center>		
+    <div class="footer-copyright">
+            <div class="container center-align">
+            Apheresis Apps © Apheresis Medan <br/><a class="" id="btnTentang">Tentang Aplikasi</a>
+           </div>
+  </main>  
+  </body>
+  </html>

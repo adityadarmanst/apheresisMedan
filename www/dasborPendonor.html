@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+  <html>
+    <head>
+      <title>Apheresis Medan</title>
+      <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+      <!--Import Google Icon Font-->
+      <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+      <!--Import materialize.css-->
+      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.100.1/css/materialize.min.css">
+        <script type="text/javascript" src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.100.1/js/materialize.min.js"></script>
+        <script type="text/javascript" src="js/dasborPendonor.js"></script>
+    </head>
+
+    <body>
+          <div class="navbar-fixed">  
+      <nav>
+      <div class="nav-wrapper red ">
+        
+        <a href="#!" class="brand-logo"><marquee><small id="judulApps">Apheresis Apps</small></marquee></a>
+        
+        <a href="#!" data-activates="menu-mobile" class="button-collapse">
+        <i class="material-icons">menu</i>
+        </a>
+        <ul class="right hide-on-small-only">
+         <li><a href="#!">Home</a></li>
+         <li><a href="#!">Profile</a></li>
+          <li><a href="#!">LogOut</a></li>
+        </ul> 
+        
+      </div>
+      </nav>
+   </div>
+      
+      <ul id="menu-mobile" class="side-nav">
+    <li><div class="user-view">
+      <div class="background blue">
+        
+      </div>
+      <a href="#!user"><img class="circle" src="img/topo.png"></a>
+      <a href="#!name"><span class="white-text name">Aditia Darma Nasution</span></a>
+      <a href="#!email"><span class="white-text email">aditia_darma@nadha.net</span></a>
+    </div></li>
+    <li><a href="#!" id="homeSideNav" class="hoverable"><i class="material-icons">home</i>Home</a></li>
+    <li><a href="#!" id="profileSideNav" class="hoverable"><i class="material-icons">person</i>Profile</a></li>
+    <li><a href="#!" id="donorSideNav" class="hoverable"><i class="material-icons">favorite</i>Donor</a></li>    
+    <li><a href="#!" id="rekapDonorSideNav" class="hoverable"><i class="material-icons">present_to_all</i>Rekap Donor</a></li>
+    <li><a href="#!" id="obrolanSideNav" class="hoverable"><i class="material-icons">chat_buble</i>Obrolan</a></li>
+    <li><a href="#!" id="LogOutSideNav" class="hoverable"><i class="material-icons">undo</i>Log Out</a></li>
+    
+    <li>
+      
+      <footer class="page-footer white">
+          <div class="container">
+            <div class="row">
+              <div class="col l6 s12">
+                <h5 class="grey-text">Apheresis Apps</h5>
+                <small class="grey-text">@ 2017 Apheresis Medan</small>
+              </div>
+            </div>
+          </div>          
+        </footer>
+    </li>
+
+  </ul>
+      <div id="loading">
+        
+      </div>  
+      <!-- start container -->
+    <div class="container" id="divUtama">
+        
+       
+         
+            
+        <!-- end container -->
+      </div>
+     
+            
+<div class="fixed-action-btn horizontal">
+    <a class="btn-floating btn-large red">
+      <i class="large material-icons">menu</i>
+    </a>
+    <ul>
+      <li><a class="btn-floating red" id="btnDasborFloat"><i class="medium material-icons">dashboard</i></a></li>
+      <li><a class="btn-floating red" id="btnInfoFloat"><i class="medium material-icons">info</i></a></li>
+      <li><a class="btn-floating red"><i class="medium material-icons">announcement</i></a></li>
+      <li><a class="btn-floating red"><i class="medium material-icons">undo</i></a></li>
+    </ul>
+  </div>
+            
+      
+      <!--Import jQuery before materialize.js-->
+      
+    </body>
+  </html>
+        
